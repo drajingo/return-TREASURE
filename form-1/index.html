@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap Login &amp; Register Templates</title>
+        <title>Event|Login</title>
 
         <!-- CSS 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">-->
@@ -34,7 +34,7 @@
     <body>
 
         <!-- Top content -->
-        <div class="top-content">
+        <div class="top-content" style="zoom:77%;">
         	
             <div class="inner-bg">
                 <div class="container">
@@ -42,13 +42,9 @@
                     <div class="row"    >
                         <div class="col-sm-8 col-sm-offset-2 text">
                             <!-- HEADLINE -->
-                            <h1><strong>TECHNOVANZA</strong> CODE &amp; HUNT TREASURE</h1>
+                            <h1 ><center class="title">Treasure Hunt</center></h1>
                             <div class="description">
-                            	<p>
-	                            	This is a free responsive <strong>"login and register forms"</strong> template made with Bootstrap. 
-	                            	Download it on <a href="http://azmind.com" target="_blank"><strong>AZMIND</strong></a>, 
-	                            	customize and use it as you like!
-                            	</p>
+                            	
                             </div>
                         </div>
                     </div>
@@ -60,11 +56,11 @@
 	                        	<div class="form-top">
                                     <!-- LOGIN FORM-->
 	                        		<div class="form-top-left">
-	                        			<h3 style="opacity:1;color:white;">Login to our site</h3>
-	                            		<p style="opacity:1;color:white;">Enter username and password to log on:</p>
+	                        			<h3 class="top-text"><b>Login to our site</b></h3>
+	                            		<p class="top-text2"><b>Enter username and password:</b></p>
 	                        		</div>
 	                        		<div class="form-top-right">
-	                        			<i class="fa fa-key"style="opacity:1"></i>
+	                        			<i class="fa fa-key"style="opacity:1;color:brown;"></i>
 	                        		</div>
 	                            </div>
                                 <!--LOGIN FORM DETAILS START-->
@@ -72,13 +68,13 @@
 				                    <form role="form" action="" method="post" class="login-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-teamname">Team Name</label>
-				                        	<input type="text" name="form-teamname" placeholder="Team Name" class="form-teamname form-control" id="form-teamname">
+				                        	<input type="text" name="form-teamname" placeholder="Team Name" class="form-teamname form-control" id="form-teamname" required>
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-password">Password</label>
-				                        	<input type="password" name="form-password" placeholder="Password" class="form-password form-control" id="form-password">
+				                        	<input type="password" name="form-password" placeholder="Password" class="form-password form-control" id="form-password" required>
 				                        </div>
-				                        <button type="submit" class="btn">SIGN IN</button>
+				                        <button type="submit" class="btn" ><b>SIGN IN</b></button>
 				                    </form>
 			                    </div>
 		                    </div>
@@ -97,11 +93,11 @@
                                 <!--SIGNUP FORM HEADING-->
                         		<div class="form-top">
 	                        		<div class="form-top-left">
-	                        			<h3 style="opacity:1;color:white;">Sign up now</h3>
-	                            		<p style="opacity:1;color:white;">Get yourself codicted...</p>
+	                        			<h3 class="top-text"><b>Sign up now</b></h3>
+	                            		<p class="top-text2"><b>Get yourself codicted...</b></p>
 	                        		</div>
 	                        		<div class="form-top-right">
-	                        			<i class="fa fa-pencil" style="opacity:1;"></i>
+	                        			<i class="fa fa-pencil" style="opacity:1;color:brown;"></i>
 	                        		</div>
 	                            </div>
 <!--SIGNUP FORM DETAILS START-->
@@ -109,22 +105,22 @@
 				                    <form role="form" action="" method="post" class="registration-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-teamname">Team Name</label>
-				                        	<input type="text" name="form-teamname" placeholder="Team Name..." class="form-teamname form-control" id="form-teamname">
+				                        	<input type="text" name="form-teamname" placeholder="Team Name..." class="form-teamname form-control" id="form-teamname" required>
 				                        </div>
 				                        <div class="form-group">
-				                        	<label class="sr-only" for="">Password</label>
-				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+				                        	<label class="sr-only" for="form-password">Password</label>
+				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password" required>
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-repassword">Renter Password</label>
-				                        	<input type="password" name="form-repassword" placeholder="Renter Your Password..." class="form-repassword form-control" id="form-repassword">
+				                        	<input type="password" name="form-repassword" placeholder="Renter Your Password..." class="form-repassword form-control" id="form-repassword" required>
 				                        </div>
                                         <div class="form-group">
                                             <label class="sr-only" for="name-1">Member 1</label>
                                             <table>
                                                 <tr>
-                                           <td><input type="text" name="name-1" placeholder="Member 1 " class="form-name-1 form-control" id="form-name-1"></td>
-    <td> <input type="text" name="adm-1" placeholder="Admission Number" class="form-adm-1 form-control" id="form-adm-1"></td>
+                                           <td><input type="text" name="name-1" placeholder="Member 1 " class="form-name-1 form-control" id="form-name-1" required></td>
+    <td> <input type="text" name="adm-1" placeholder="Admission Number" class="form-adm-1 form-control" id="form-adm-1" required></td>
 </tr>
 </table>
                                         </div>
@@ -132,8 +128,8 @@
                                             <table>
                                                 <tr>
                                           <label class="sr-only" for="name-2">Member 2</label></td>
-                                          <td>  <input type="text" name="name-2" placeholder="Member 2 " class="form-name-2 form-control" id="form-name-2"></td>
-                                         <td> <input type="text" name="adm-2" placeholder="Admission Number" class="form-adm-2 form-control" id="form-adm-2"></td>
+                                          <td>  <input type="text" name="name-2" placeholder="Member 2 " class="form-name-2 form-control" id="form-name-2" required></td>
+                                         <td> <input type="text" name="adm-2" placeholder="Admission Number" class="form-adm-2 form-control" id="form-adm-2"required></td>
                                         </tr>
                                         </div>
                                        <div class="form-group">
@@ -142,8 +138,8 @@
                                             <tr>
 
                                             <label class="sr-only" for="name-3">Member 3</label>
-                                            <td><input type="text" name="name-3" placeholder="Member 3 " class="form-name-3 form-control" id="form-name-3"></td>
-                                                <td><input type="text" name="adm-3" placeholder="Admission Number" class="form-adm-3 form-control" id="form-adm-3">
+                                            <td><input type="text" name="name-3" placeholder="Member 3 " class="form-name-3 form-control" id="form-name-3" required></td>
+                                                <td><input type="text" name="adm-3" placeholder="Admission Number" class="form-adm-3 form-control" id="form-adm-3"required>
                                         </td>
                                     </tr>
                                 </table>
@@ -151,25 +147,27 @@
                                         </div>
                                           <div class="form-group">
                                             <label class="sr-only" for="number">Mobile No.</label>
-                                            <input type="text" name="number" placeholder="Mobile Number"  class="form-number form-control" id="form-number">
+                                            <input type="text" name="number" placeholder="Mobile Number"  class="form-number form-control" id="form-number" required>
                                         
                                         </div>
                                         
                                         
                                         
                                         <div class="form-group">
-                                       <input type="radio" id="div-1" name="div-1" style="padding-left: 25px;margin-left: 95px">
+                                       <input type="radio" id="div-1" name="div-1" style="padding-left: 25px;margin-left: 95px;width: 1.5em;
+    height: 1.5em;" required>
     
                                         <label for="div-1"><h3><b>DIV I</b></h3></label>
                                         
-                                        <input type="radio" id="div-2" name="div-2"style="margin-left:65px;">
+                                        <input type="radio" id="div-2" name="div-2"style="margin-left:65px;width: 1.5em;
+    height: 1.5em;" required>
                                         <label  for="div-2"><h3><b>DIV II</b></h3></label>
                                 </div>
 
 
 				                        
                                         
-				                        <button type="submit" class="btn">Sign me up!</button>
+				                        <button type="submit" class="btn"><b>Sign me up!</b></button>
 				                    </form>
 			                    </div>
                         	</div>
@@ -185,11 +183,10 @@
         <!-- Footer -->
         <footer>
         	<div class="container">
-        		<div class="row">
+        		<div class="row" style="zoom:75%;">
         			
         			
-        			<h1 style="font-wight:bold;font-style:Carolina;opacity:0.6;color:black;"><center>Be the Code-hunter This time ..... </center>
-        				</h1>	
+        			<h1 class="end-text">Be the Code-hunter This time .....</h1>	
         			</div>
         			
         		</div>

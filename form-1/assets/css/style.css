@@ -1,8 +1,33 @@
-
-body{
-background-image:url('assets/img/backgrounds/1.jpg');
+.title{
+	font-size:100px;
+	color:brown;
+	font-weight:bold;
+	padding-top:20px;
+	text-decoration:underline;
+	font-family:Edwardian Script ITC;
+	
 }
-
+.top-text{
+	opacity:1;
+	color:brown;
+	font-family:Edwardian Script ITC;
+	font-size:50px;
+}
+.top-text2{
+	opacity:1;
+	color:brown;
+	font-size:20px;
+	font-family:Arial;
+	
+}
+.end-text{
+	font-wight:bold;
+	font-family:Edwardian Script ITC;
+	opacity:0.8;
+	color:brown;
+	font-size:80px;
+	text-align:center;
+}
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
@@ -21,26 +46,17 @@ input[type=text]{
 	border-radius:9px;
 	text-align:center;
 	font-weight:bold;
-	color:#660033;	
+	color:brown;
 	height:60px;
 
-}
-input[type=text]:hover{
-	background-color:black;
-	color:#a048b9;
 }
 input[type=password]{
 	border-radius:9px;
 	text-align:center;
 	font-weight:bold;
-	color:#660033;	
+	color:brown;	
 	height:60px;
 
-}
-input[type=password]:hover
-{
-	background-color:black;
-	color:#a048b9;
 }
 h1, h2 {
 	margin-top: 10px;
@@ -132,18 +148,21 @@ img { max-width: 100%; }
 
 .form-box {
 	margin-top: 70px;
+	
 }
 
 .form-top {
 	overflow: hidden;
 	padding: 0 25px 15px 25px;
-	background:#1e1e1e;
-	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	
+	border:5px solid brown;
+	-moz-border-radius: 20px 20px 0 0; -webkit-border-radius: 20px 20px 0 0; border-radius: 20px 20px 0 0;
 	text-align: left;
-	opacity:0.5;
+	opacity:1;
 }
 .radio{
 	display:inline;
+	background:transparent;
 }
 
 .form-top-left {
@@ -177,10 +196,13 @@ button[type=submit]
 }
 .form-bottom {
 	padding: 25px 25px 30px 25px;
-	background: #eee;
-	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+
+	border-width:0px 5px 5px 5px;
+	border-style:solid;
+	border-color:brown;
+	-moz-border-radius: 0 0 20px 20px; -webkit-border-radius: 0 0 20px 20px; border-radius: 0 0 20px 20px;
 	text-align: left;
-	opacity:0.8;
+	opacity:1;
 }
 
 .form-bottom form textarea {
@@ -192,21 +214,10 @@ button[type=submit]
 }
 
 .form-bottom form .input-error {
-	border-color: #19b9e7;
+	border-color: black;
 }
 .form-bottom-left{
 	height:250px;
-}
-.social-login {
-	margin-top: 35px;
-}
-
-.social-login h3 {
-	color: #fff;
-}
-
-.social-login-buttons {
-	margin-top: 25px;
 }
 
 .middle-border {
