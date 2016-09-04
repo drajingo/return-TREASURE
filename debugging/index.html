@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+
+<title>CODE DEBUGGING</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+</head>
+<body>
+
+   <!---------------------------------------------------------------------------------------------main nav-bar----------------------------------------------------------------------->
+   
+<nav class="main-nav-outer">
+	<div class="container">
+	<div class="col-sm-5">
+	</div>
+	<div class="col-sm-7">
+        <ul class="main-nav">
+            <li class="navlist"><i class="fa fa-user"></i>Team Name<span></span></li>
+            <li class="navlist">Points-<span></span></li>
+            <li><a class="logout" href="#"><b>Logout</b></a></li>
+        </ul>
+      
+    </div>
+	</div>
+</nav>
+
+<!-----------------------------------------------------------------------------------------------list of tabs--------------------------------------------------------------------------->
+<div class="container tabs">
+  <h2 class="heading">CODE DEBUGGING</h2>
+  <ul class="nav nav-tabs tabstitle">
+  <li class="active list"><a data-toggle="tab" href="#RULES">RULES</a></li>
+    <li class="list"><a  data-toggle="tab" href="#C">C</a></li>
+    <li class="list"><a data-toggle="tab" href="#C++">C++</a></li>
+    <li class="list"><a data-toggle="tab" href="#JAVA">JAVA</a></li>
+    <li class="list"><a data-toggle="tab" href="#PYTHON">PYTHON</a></li>
+  </ul>
+
+  <!--------------------------------------------------------------------------------contents and images for the tabs----------------------------------------------------------------->
+ 
+ <div class="tab-content">
+  <div id="RULES" class="tab-pane fade in active">
+   <img class="image c"src="img\ins_debug.jpg">;
+  </div>
+  
+    <div id="C" class="tab-pane fade">
+    <img class="image c"src="img\11013616_1609534072645497_3712126453302595153_n.jpg">;
+    </div>
+    <div id="C++" class="tab-pane fade">
+    <img class="image c"src="img\11013616_1609534072645497_3712126453302595153_n.jpg">;
+    </div>
+    <div id="JAVA" class="tab-pane fade">
+    <img class="image c"src="img\11013616_1609534072645497_3712126453302595153_n.jpg">;
+    </div>
+    <div id="PYTHON" class="tab-pane fade">
+    <img class="image c"src="img\11013616_1609534072645497_3712126453302595153_n.jpg">;
+    </div>
+  </div>
+</div>
+
+<!-- text area for the answer------------------------------------>
+
+<div class="ans">
+<form class="answer"><textarea class="statusbox form-control space" rows="2" placeholder="Your Answer"></textarea></form>
+
+<!----------Submit button------------------------------------------>
+<div class="button-group">  
+<a href="#" class="btn btn-primary">Submit</a>
+
+</div>
+</div>
+
+<!--footer---------------------------------------------------------------------------------------------------------------------------->
+<section id="contact" class="section footer">
+		<div class="container">
+<div class="col-sm-6"></div>
+<div class="col-sm-6 about"> 
+<p>A treasure hunt is one of many different types of games with one or more players who try to find hidden objects or places by 
+following a series of clues. Treasure hunt games may be an indoor or outdoor activity. Outdoors they can be played in a garden or the 
+treasure could be located anywhere around the world.</p>
+</div>
+</div>
+</section>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+</body>
+</html>
