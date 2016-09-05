@@ -47,6 +47,8 @@ jQuery(document).ready(function() {
     	});
     	
     });
+	//---alert started---
     
+    $('[data-toggle="popover"]').popover(); 
     
 });
